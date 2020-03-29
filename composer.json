@@ -1,0 +1,36 @@
+{
+    "name": "swinde/oxid6togglemenu",
+    "description": "Off-Canvas Menü fuer OXID 6",
+    "version": "1.0.0",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "Editor"
+    ],
+    "homepage":    "https://github.com/swinde/oxid6togglemenu",
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "authors":     [
+        {
+            "name":  "Internetservice | Steffen Winde",
+            "email": "inserv@winde-ganzig.de"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "swinde/oxid6togglemenu"
+        }
+    },
+    "support": {
+        "email": "inserv@winde-ganzig.de",
+        "homepage": "https://winde-ganzig.de"
+    },
+    "autoload": {
+        "psr-4": {
+            "swinde\\oxid6togglemenu\\": "../../../source/modules/swinde/oxid6togglemenu"
+        }
+    }
+}

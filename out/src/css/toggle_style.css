@@ -131,6 +131,12 @@ html body input.menu-toggle{
     border-width: 20px;
     margin-left: -20px; } }
 @media (max-width: 1120px) {
+  body.fixed-header #header #mainnav.fadeIn {
+  width: 250px;
+}
+  .fixed-header-actions {
+    display: inline-block;
+  }
  #header nav.navbar {
     position: fixed;
     left: 0;
@@ -204,12 +210,11 @@ html body input.menu-toggle{
     background: #000;
     transition: all .3s; }
   #header .menu-toggle > span:nth-child(1), #header .menu-toggle > span + span {
-    margin-top: 9px; } }
+    margin-top: 9px; }
+}
 .collapse:not(.show) {
   display: block !important; }
-/*body.fixed-header #header #mainnav.fadeIn {
-  width: 250px;
-}*/
+
 /*Flow-Theme*/
 #header nav.navbar-default .navbar-collapse{
   padding: 0;

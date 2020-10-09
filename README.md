@@ -10,7 +10,7 @@ Das Modul ersetzt das Bootstrap Tooglemenü, für mobile Geräte, durch ein Off-
 Das horizontale Menü für Desktopbildschirme bleibt erhalten.
 
 ### Installation
-`composer require swinde/oxid6togglemenu`  
+`composer require --no-scripts --update-no-dev --no-interaction --optimize-autoloader swinde/oxid6togglemenu`  
 
 
 ### License

@@ -9,17 +9,6 @@ $aModule = [
     'version'                 => '1.0.0',
     'author'                  => 'Steffen Winde',
     'email'                   => 'inserv@winde-ganzig.de',
-    'url'                     => 'https://winde-ganzig.de',
-    'extend'                  => [
-    ],
-    'controllers'             => [
-    ],
-    'templates'               => [
-    ],
-    'events'                  => [
-        'onActivate'  => '',
-        'onDectivate' => '',
-    ],
     'blocks'                  => [
         [
             'template' => 'layout/base.tpl',
@@ -47,16 +36,5 @@ $aModule = [
             'block' => 'dd_widget_header_categorylist',
             'file' => 'views/blocks/oxid6togglemenu_categorylist_forFlow.tpl',
         ]
-    ],
-    'settings'                => [
-//        [
-//            'group' => 'main',
-//            'name'  => 'dMaxPayPalDeliveryAmount',
-//            'type'  => 'str',
-//            'value' => '30',
-//        ],
-    ],
-    'smartyPluginDirectories' => [
-//        'Smarty/PluginDirectory1'
     ],
 ];

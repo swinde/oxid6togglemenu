@@ -2,7 +2,7 @@
 $sMetadataVersion = "2.1";
 
 $aModule = [
-    'id'                      => 'oxid6togglemenu',
+    'id'                      => 'swinde/oxid6togglemenu',
     'title'                   => '.BEES | Off-Canvas Menü fuer OXID 6',
     'description'             => '[TR - Off-Canvas Menue für OXID 6]',
     'thumbnail'               => 'out/src/pictures/picture.png',

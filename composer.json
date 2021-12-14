@@ -1,7 +1,6 @@
 {
     "name": "swinde/oxid6togglemenu",
     "description": "Off-Canvas Menü fuer OXID 6",
-    "version": "1.0.1",
     "type":        "oxideshop-module",
     "keywords":    [
         "oxid",

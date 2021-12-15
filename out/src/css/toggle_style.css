@@ -145,7 +145,7 @@ html body input.menu-toggle{
     width: 250px;
     height: 100vh;
     overflow: auto;
-    background-color: rgba(255,255,255,.95);
+    background-color: rgba(34, 33, 33, 0.95);
     box-shadow: inset -7px 0 12px -7px rgba(115, 115, 115, 0.4);
     scrollbar-width: none;
     -ms-overflow-style: none;

@@ -22,7 +22,7 @@ $aModule = [
         ],
         [
             'template' => 'layout/base.tpl',
-            'block' => 'base_css',
+            'block' => 'base_style',
             'file' => 'views/blocks/oxid6togglemenu_base_style.tpl',
         ],
         [

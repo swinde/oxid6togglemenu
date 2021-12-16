@@ -37,4 +37,5 @@ $aModule = [
             'file' => 'views/blocks/oxid6togglemenu_categorylist_forFlow.tpl',
         ]
     ],
+	'settings'=>[],
 ];

@@ -33,7 +33,6 @@ var paths = {
 		styles:     themePath + 'src/scss/**/*.scss',
 		scripts:    themePath + 'src/js/**/*.js',
 		images:     themePath + 'src/img/**/*',
-		//templates:  'templates/**/*'
 	}
 };
 const styles = function() {

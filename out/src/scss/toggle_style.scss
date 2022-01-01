@@ -208,7 +208,7 @@ html body input.menu-toggle {
 
             a {
               width: calc(100% - 30px);
-              color: var(--secondary);
+
             }
           }
         }
@@ -273,9 +273,8 @@ html body input.menu-toggle {
   margin-left: 0;
   margin-right: 0;
 }
-@media (var(--breakpoint-xs) ){
+@media (max-width: 576px){
   #mainnav.navbar .nav-item .nav-link {
-    color: var(--secondary)!important;
     padding: 1rem 0;
   }
 }

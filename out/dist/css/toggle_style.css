@@ -154,7 +154,9 @@ html body input.menu-toggle{
     display: none; }
   #header nav.navbar ul {
     padding: 0 10px;
-    height: auto;}
+    height: auto;
+    flex-direction: row;
+  }
   #header nav.navbar ul li {
     display: block;
     width: 100%;

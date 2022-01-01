@@ -21,7 +21,14 @@
     "extra":       {
         "oxideshop": {
             "blacklist-filter": [
-                "documentation/**/*.*"
+                "documentation/**/*.*",
+                ".gitignore",
+                ".gitattributes",
+                "CHANGELOG.md",
+                "CONTRIBUTING.md",
+                "gulpfile.js",
+                "package.json",
+                "package-lock.json"
             ],
             "target-directory": "swinde/oxid6togglemenu"
         }

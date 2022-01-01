@@ -1,0 +1,40 @@
+{
+  "name": "oxid6togglemenu",
+  "version": "1.0.0",
+  "description": "Off-Canvas Menue für OXID 6\r ====",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-include": "^2.4.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-pngcrush": "^6.0.0",
+    "node-sass": "^6.0.1",
+    "postcss-nested": "^4.2.1",
+    "postcss-scss": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-sass-lint": "^1.4.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swinde/oxid6togglemenu.git"
+  },
+  "author": "Steffen Winde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swinde/oxid6togglemenu/issues"
+  },
+  "homepage": "https://github.com/swinde/oxid6togglemenu#readme"
+}

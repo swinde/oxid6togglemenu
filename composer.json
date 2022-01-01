@@ -20,6 +20,9 @@
     ],
     "extra":       {
         "oxideshop": {
+            "blacklist-filter": [
+                "documentation/**/*.*"
+            ],
             "target-directory": "swinde/oxid6togglemenu"
         }
     },

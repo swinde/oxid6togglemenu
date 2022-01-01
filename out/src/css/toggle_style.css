@@ -96,7 +96,11 @@ html body input.menu-toggle {
   body.fixed-header #header #mainnav.fadeIn {
     width: 250px; }
   .fixed-header-actions {
-    display: inline-block; }
+    display: inline-block;
+    width: 100%; }
+    .fixed-header-actions .fixed-header-link {
+      padding: 1rem 0;
+      display: block; }
   #header nav.navbar {
     position: fixed;
     left: 0;
@@ -114,7 +118,8 @@ html body input.menu-toggle {
       display: none; }
     #header nav.navbar ul {
       padding: 0 10px;
-      height: auto; }
+      height: auto;
+      flex-direction: row; }
       #header nav.navbar ul li {
         display: block;
         width: 100%;
@@ -175,5 +180,14 @@ html body input.menu-toggle {
 /*Flow-Theme*/
 #header nav.navbar-default .navbar-collapse {
   padding: 0; }
+
+.header .navbar .nav-item .dropdown-menu {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0; }
+
+@media (max-width: 576px) {
+  #mainnav.navbar .nav-item .nav-link {
+    padding: 1rem 0; } }
 
 /*# sourceMappingURL=../maps/toggle_style.css.map */
